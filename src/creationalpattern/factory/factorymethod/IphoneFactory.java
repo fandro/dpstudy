@@ -1,6 +1,9 @@
 package creationalpattern.factory.factorymethod;
 
 
+/**
+ * @uml.dependency   supplier="creationalpattern.factory.factorymethod.IPhone"
+ */
 public class IphoneFactory implements PhoneFactory {
 
 	@Override
