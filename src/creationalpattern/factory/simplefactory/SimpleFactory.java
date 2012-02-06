@@ -11,7 +11,7 @@ public class SimpleFactory {
 	 * @param phoneName the phone name
 	 * @return the creationalpattern.factory.simplefactory. phone
 	 */
-	public static Phone callPhone(char phoneName) {
+	public static Phone producePhone(char phoneName) {
 		switch (phoneName) {
 		case 'i':
 			return new IPhone();
